@@ -73,7 +73,7 @@ az postgres server threat-policy update --resource-group MyPostgreSQLResourceGro
 - Restrict access by configuring `pg_hba.conf` file within PostgreSQL to allow only specific IP addresses.
   ```bash
   # Example entry in pg_hba.conf
-  host all all                            192.168.1.0/24 md5
+  host all all 192.168.1.0/24 md5
   ```
 
 ### **Summary**
